@@ -26,7 +26,7 @@ body{
   border-radius: 25px;
 }
 .card{
-    height:400px ;
+    height:430px ;
   border-radius: 25px;
   background-color: #FFF;
 }
@@ -83,13 +83,19 @@ body{
 .name{
   font-size: 18px;
   font-weight: 500;
-  color: #1c1c1c;
+  color: #121111;
 }
 .description{
   font-size: 14px;
   color: #707070;
   text-align: center;
 }
+
+i{
+    align-self: flex-start;
+    margin-top: 10px;
+}
+
 .button{
   border: none;
   font-size: 16px;
@@ -101,6 +107,7 @@ body{
   cursor: pointer;
   transition: all 0.3s ease;
 }
+
 .button:hover{
   background: #265DF2;
 }
