@@ -103,13 +103,14 @@ i{
   padding: 8px 16px;
   background-color: #4070F4;
   border-radius: 6px;
-  margin: 14px;
+  margin: 18px;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 
 .button:hover{
   background: #265DF2;
+  transform: scale(0.9)
 }
 
 .swiper-navBtn{
